@@ -1,0 +1,54 @@
+.avatar {
+  border-radius: 50%;
+  background-image: url("../image/avatar.jpeg");
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  box-shadow: 3px;
+  margin: 0px auto;
+}
+
+body {
+    background-color: #2C4251;
+}
+
+main {
+  max-width: 800px;
+  margin: 0px auto;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  background-color: #C1C1C1;
+  padding: 15px 15px;
+  border-radius: 5px;
+}
+
+main p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+main h3 {
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+}
+
+.links {
+  padding: 2px 2px;
+  text-align: center;
+}
+
+.links a {
+  padding: 2px;
+  font-size: 1.75em;
+  color: black;
+}
+
+.links a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.links a:hover {
+  color: #D16666;
+}
